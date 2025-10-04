@@ -1,0 +1,176 @@
+.btn-aceptar {
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-aceptar:hover { background: #21867a; }
+
+.btn-rechazar {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-rechazar:hover { background: #d62828; }
+
+.btn-finalizar {
+  background: #1d3557;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-finalizar:hover { background: #457b9d; }
+/* Contenedor principal */
+.supervisor-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezado con logo y botón atrás */
+.supervisor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.supervisor-header img.logo {
+  height: 50px;
+}
+
+.supervisor-header .btn-salir {
+  background: #f44336;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.supervisor-header .btn-salir:hover {
+  background: #d32f2f;
+}
+
+/* Título */
+.supervisor-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Lista de reportes */
+.reportes-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjeta de cada reporte */
+.reporte-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.reporte-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Texto dentro de la tarjeta */
+.reporte-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.reporte-card p strong {
+  color: #333;
+}
+
+/* Estado del reporte */
+.estado {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.estado.pendiente {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.estado.aceptado {
+  background: #d4edda;
+  color: #155724;
+}
+
+.estado.rechazado {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.botones button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Botón aceptar */
+.btn-aceptar {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-aceptar:hover {
+  background: #388e3c;
+}
+
+/* Botón rechazar */
+.btn-rechazar {
+  background: #f44336;
+  color: white;
+}
+
+.btn-rechazar:hover {
+  background: #d32f2f;
+}
+
+/* Botón ver PDF */
+.btn-pdf {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-pdf:hover {
+  background: #1976d2;
+}

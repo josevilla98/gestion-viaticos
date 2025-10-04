@@ -1,0 +1,74 @@
+.reporte-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.reporte-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reporte-header h2 {
+  text-align: center;
+  flex: 1;
+}
+
+.btn-cancelar {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-cancelar:hover {
+  background: #b52b27;
+}
+
+.form-section {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  align-items: center;
+}
+
+.tabla-gastos {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.columna-dia {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.columna-dia h4 {
+  margin-bottom: 10px;
+  background: #007bff;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.columna-dia input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.resumen-final {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
