@@ -1,0 +1,76 @@
+
+
+.distribuidoras-container {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.logo-cmi {
+  width: 100px;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.lista-distribuidoras {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.distribuidora-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.distribuidora-card:hover {
+  transform: scale(1.02);
+  background: #f1f5f9;
+}
+
+.nombre {
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.ubicacion {
+  color: #475569;
+}
+
+.btn-atras {
+  background: #dc2626; /* 🔴 Rojo */
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  transition: background 0.3s ease;
+}
+
+.btn-atras:hover {
+  background: #b91c1c; /* rojo más oscuro */
+}

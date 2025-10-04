@@ -1,0 +1,94 @@
+/* src/components/componentestecnico/Historial.css */
+
+.historial-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.historial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.btn-salir {
+  background: #e74c3c;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-salir:hover {
+  background: #c0392b;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.no-reportes {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.lista-reportes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reporte-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.reporte-item div {
+  font-size: 14px;
+  color: #333;
+}
+
+.btn-pdf {
+  text-decoration: none;
+  background: #3498db;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-pdf:hover {
+  background: #2980b9;
+}
+
+/* Estados */
+.estado-pendiente {
+  color: #f39c12;
+  font-weight: bold;
+}
+.estado-aprobado {
+  color: #27ae60;
+  font-weight: bold;
+}
+.estado-rechazado {
+  color: #e74c3c;
+  font-weight: bold;
+}

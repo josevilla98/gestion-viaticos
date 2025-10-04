@@ -1,0 +1,120 @@
+.reportes-container {
+  padding: 20px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.reportes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.btn-salir {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-salir:hover {
+  background: #d62828;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #1d3557;
+}
+
+.reportes-lista {
+  display: grid;
+  gap: 15px;
+}
+
+.reporte-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reporte-info h3 {
+  margin: 0;
+  color: #457b9d;
+}
+
+.reporte-info p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.reporte-actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn-pdf {
+  background: #1d3557;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.btn-pdf:hover {
+  background: #457b9d;
+}
+
+.no-pdf {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}
+.btn-aceptar {
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-aceptar:hover { background: #21867a; }
+
+.btn-rechazar {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-rechazar:hover { background: #d62828; }
+
+.btn-finalizar {
+  background: #1d3557;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-finalizar:hover { background: #457b9d; }
